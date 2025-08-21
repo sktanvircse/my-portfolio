@@ -9,7 +9,7 @@ export default function Projects() {
             <h2 className="text-3xl font-bold mb-6">Projects</h2>
             <div className="grid md:grid-cols-3 gap-6">
                 {projects.map((p) => (
-                    <div key={p.name} className="p-6 bg-gray-800 rounded-lg shadow">
+                    <div key={p.name} className="p-6 bg-gray-500 rounded-lg shadow">
                         <h3 className="text-xl font-semibold mb-2">{p.name}</h3>
                         <p className="text-gray-400">{p.desc}</p>
                     </div>
