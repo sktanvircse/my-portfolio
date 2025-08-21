@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { HiArrowDown } from "react-icons/hi";
 
@@ -47,32 +48,32 @@ export default function Hero() {
             <motion.a
                 href="#projects"
                 whileHover={{ scale: 1.1 }}
-                className="mt-6 px-6 py-3 bg-green-500 hover:bg-blue-500 rounded-full text-white shadow-lg"
+                className="mt-10 px-6 py-3 bg-green-500 hover:bg-blue-500 rounded-full text-white shadow-lg"
             >
                 View My Work
             </motion.a>
 
-            <div className="flex space-x-6 mt-6">
-                <a
+            <div className="flex space-x-6 mt-10">
+                <Link
                     href="https://github.com/sktanvircse"
                     target="_blank"
                     className="text-green-500 hover:text-blue-500 text-xl font-semibold"
                 >
                     GitHub
-                </a>
-                <a
+                </Link>
+                <Link
                     href="https://www.linkedin.com/in/sktanvirdev/"
                     target="_blank"
                     className="text-green-500 hover:text-blue-500 text-xl font-semibold"
                 >
                     LinkedIn
-                </a>
+                </Link>
             </div>
 
             <motion.div
                 animate={{ y: [0, 10, 0] }}
                 transition={{ repeat: Infinity, duration: 1 }}
-                className="absolute bottom-10 text-2xl text-green-500"
+                className="absolute bottom-14 text-2xl text-green-500"
             >
                 <HiArrowDown />
             </motion.div>
