@@ -14,7 +14,7 @@ export default function Navbar() {
         <nav className="fixed top-0 left-0 w-full bg-background/80 backdrop-blur-md shadow z-50">
             <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
                 {/* Logo / Name */}
-                <h1 className="text-2xl font-bold text-green-500">Tanvir</h1>
+                <h1 className="text-2xl font-bold text-green-500">SK Tanvir</h1>
 
                 {/* Navigation Links */}
                 <div className="flex space-x-6">
