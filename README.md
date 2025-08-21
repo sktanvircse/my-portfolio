@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sheikh Tanvir Portfolio
 
-## Getting Started
+This is a **personal portfolio website** built with **Next.js**, **Tailwind CSS**, and **Framer Motion**. It showcases my skills, projects, and contact information in a modern, animated, and responsive layout.
 
-First, run the development server:
+---
+
+## 🌟 Live Demo
+
+[View Live Portfolio](https://your-vercel-deployment-link.vercel.app)
+
+<!-- --- -->
+
+<!-- ## 🖼 Screenshots
+
+### Hero Section
+![Hero](./public/screenshots/hero.png)
+
+### About Section
+![About](./public/screenshots/about.png)
+
+### Skills Section
+![Skills](./public/screenshots/skills.png)
+
+### Projects Section
+![Projects](./public/screenshots/projects.png)
+
+### Contact Section
+![Contact](./public/screenshots/contact.png)
+
+### Footer
+![Footer](./public/screenshots/footer.png) -->
+
+<!-- --- -->
+
+## 🚀 Features
+
+- **Hero Section** with animated introduction and scroll-down indicator  
+- **About Section** with skills, soft skills, and animated cards  
+- **Skills Section** displaying frontend and backend technologies with icons and hover animations  
+- **Projects Section** showing selected projects with interactive cards  
+- **Contact Form** with focus animations and animated submit button  
+- **Footer** with social links and gradient background  
+- Fully **responsive** and **mobile-friendly**  
+- Animated with **Framer Motion** for smooth transitions  
+- **Green + Blue theme** throughout the portfolio for a fresh and energetic look  
+- Deployed live on **Vercel**
+
+---
+
+## 🛠 Tech Stack
+
+- [Next.js](https://nextjs.org) (App Router)  
+- [Tailwind CSS](https://tailwindcss.com)  
+- [Framer Motion](https://www.framer.com/motion/)  
+- [React Icons](https://react-icons.github.io/react-icons/)  
+- TypeScript  
+
+---
+
+## ⚡ Getting Started
+
+Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/sktanvircse/portfolio.git
+cd portfolio
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Install dependencies:
+- npm install
+- # or
+- yarn
+- # or
+- pnpm install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##  Run the development server:
+- npm run dev
+ -# or
+- yarn dev
+- # or
+- pnpm dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+- Open http://localhost:3000 to view the portfolio.
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Folder Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+/app
+  ├─ page.tsx          # Home / Hero Section
+  ├─ about.tsx         # About Section
+  ├─ skills.tsx        # Skills Section
+  ├─ projects.tsx      # Projects Section
+  ├─ contact.tsx       # Contact Form Section
+  ├─ footer.tsx        # Footer Section
+/components
+  ├─ Navbar.tsx
+  ├─ Hero.tsx
+  └─ ... other reusable components
+/public
+  ├─ images            # Project images, icons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
