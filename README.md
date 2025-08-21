@@ -65,24 +65,24 @@ Clone the repository:
 git clone https://github.com/sktanvircse/portfolio.git
 cd portfolio
 
-##  Install dependencies:
-- npm install
-- # or
-- yarn
-- # or
-- pnpm install
+Install dependencies:
+ npm install
+ # or
+ yarn
+ # or
+ pnpm install
 
-##  Run the development server:
-- npm run dev
- -# or
-- yarn dev
-- # or
-- pnpm dev
+Run the development server:
+ npm run dev
+ # or
+ yarn dev
+ # or
+ pnpm dev
 
 
-- Open http://localhost:3000 to view the portfolio.
+ Open http://localhost:3000 to view the portfolio.
 
-## 📂 Folder Structure
+ 📂 Folder Structure
 
 /app
   ├─ page.tsx          # Home / Hero Section
